@@ -30,6 +30,8 @@ INSTALLED_APPS = [
 ]
 ```
 - These are Django apps you’re using. You’ll later add your own apps here, like `'store'` or `'blog'`.
+- The servcice you are building is functionally composed of smaller apps like orders, shipping, customer service, etc.
+- These are functionally separated to contain very similar functionalities together for ease of use, maintaneability and modular use (can be reused in other projects).
 
 ---
 
