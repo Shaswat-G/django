@@ -32,3 +32,19 @@ class Movie(models.Model):
     # rating = models.DecimalField(max_digits=3, decimal_places=1)
     # duration = models.IntegerField()  # in minutes
     # image_url = models.URLField()
+
+
+
+django supoorts all types of db engines like MS sql serve, mongo db, pstgtessql, oracle, etc [expand on all the modern db engines used in modern apps]
+
+sqlite is a serverless, security less no concurrency based light db for mobile and local applications used for tesing [expand on what are the main features and pros and cons of sqlite]
+
+you can tables, indices, biews and triggers. [Expand on what each of them are and what do they do]
+
+
+django comapares the model clases and db tables and creates a migration file [expand ont he details, terminologies and the process here]
+that sync our db with model classes.
+
+ python manage.py makemigrations -> genetates the migrations.py file with the operations needed for sync
+
+  python manage.py migrate
