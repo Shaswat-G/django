@@ -87,3 +87,10 @@ Performance is just one metric. What matters more for developers:
 Django shines by delivering a well-rounded, production-ready solution — ideal for startups, solo developers, and enterprise teams alike.
 
 ---
+
+
+Install django on with your fav package manager and code editor for your setup.
+I use windows 11 with miniconda and vs code on sterod with useful extensions.
+
+create a folder directory, initilaise a git repo, create a github repo with readmes and .gitignore and license
+then run django-admin startproject storefront {expand on the most commonly used django comamnds and their uses}
