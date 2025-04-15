@@ -131,3 +131,33 @@ Django is modular — meaning you create **apps** for isolated functionality:
 - Robust ORM for database operations.
 - Secure by default (CSRF protection, user auth, etc.).
 - Ideal for both **monolithic apps** and **modular microservices**.
+
+---
+
+## 📍 What Does `127.0.0.1:8000` Mean?
+
+A **port** is like a **door number** at a specific **IP address** (which is like an apartment building address on a network).  
+It tells your computer **which service or application to talk to**.
+
+The IP Address `127.0.0.1` is the **loopback IP** or **localhost** that points to **your own machine** for interacting with services running locally. The Port `:8000`  is essentially a unique identifier for a specific running program on that IP.
+- Django’s dev server runs on port `8000` by default.
+- So, `127.0.0.1:8000` means:
+  > “Connect to the app running on **my machine**, through **door #8000**.”
+
+---
+
+## 🧱 Real-World Analogy
+
+Imagine your computer is an apartment building:
+- IP address = the building address.
+- Port = the apartment number.
+- You can have **many services** (servers, apps) listening on **different ports**.
+
+For example:
+- `http://127.0.0.1:8000` → your Django app  
+- `http://127.0.0.1:5432` → PostgreSQL database  
+- `http://127.0.0.1:3000` → React frontend dev server
+
+Each app listens on its own port so they don’t conflict.
+
+---
