@@ -94,3 +94,21 @@ I use windows 11 with miniconda and vs code on sterod with useful extensions.
 
 create a folder directory, initilaise a git repo, create a github repo with readmes and .gitignore and license
 then run django-admin startproject storefront {expand on the most commonly used django comamnds and their uses}
+
+
+
+{expand in detail the components fo this files and what is each meant for, what ir does}
+init file is for defiing the folder as a package
+settings for application settinfs
+urls for urls of the application
+asgi and wsgi is for deployment 
+
+
+from now on we will use manage.py (instead of djangod-admin) which takes in to account the settings of the application
+python manage.py runserver - click on the server and see.
+
+
+Each django proejct is different since the functioanlity and use cases of an app dicate its design and implementation 
+
+{expand on the pipular use cases, and differences in implemnetsaton in django}
+
