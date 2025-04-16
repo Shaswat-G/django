@@ -45,6 +45,21 @@ you can tables, indices, biews and triggers. [Expand on what each of them are an
 django comapares the model clases and db tables and creates a migration file [expand ont he details, terminologies and the process here]
 that sync our db with model classes.
 
- python manage.py makemigrations -> genetates the migrations.py file with the operations needed for sync
+python manage.py makemigrations -> genetates the migrations.py file with the operations needed for sync
 
-  python manage.py migrate
+python manage.py migrate
+
+[expand how how we can ge tthe wxact sql statemtnes being sent to the db]
+
+
+Admin Panel:
+All django apps come with a powerful admin interface.
+❯ python manage.py createsuperuser
+
+
+
+Databse abstraction apis:
+The clas of movies that we created  in the models.py file, where we inherited it from models.Model class provides us an API to do perform operations on the db engine.
+It abstracts away the complexity of dealing with a database.
+
+You can always use raw sql statements to bypass the abstraciton api.
